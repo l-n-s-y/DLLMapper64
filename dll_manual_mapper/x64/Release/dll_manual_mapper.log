@@ -1,7 +1,10 @@
 ﻿  injection.cpp
+C:\Users\melti\Documents\Programming\Cheats\dll_manual_mapper\dll_manual_mapper\injection.cpp(195,28): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+C:\Users\melti\Documents\Programming\Cheats\dll_manual_mapper\dll_manual_mapper\injection.cpp(195,28): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+C:\Users\melti\Documents\Programming\Cheats\dll_manual_mapper\dll_manual_mapper\injection.cpp(196,81): warning C4312: 'type cast': conversion from 'DWORD' to 'LPCVOID' of greater size
   Generating code
-  2 of 274 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+  1 of 274 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   dll_manual_mapper.vcxproj -> C:\Users\melti\Documents\Programming\Cheats\dll_manual_mapper\x64\Release\dll_manual_mapper.exe

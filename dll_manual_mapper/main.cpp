@@ -25,10 +25,11 @@
 
 #define INVALID_PID_VALUE 0xcccccccc
 
-#define CREATE_NEW_PROC false
 
+#define CREATE_NEW_PROC false
 // DLL path
 #ifdef _WIN64
+//#define CREATE_NEW_PROC true
 const char szDllFile[] = "C:\\Users\\melti\\Documents\\Programming\\Cheats\\csgo_internal_tutorial\\x64\\csgo_internal_tutorial.dll";
 const char szProcName[] = "mspaint.exe"; // Process Name
 #else
@@ -75,11 +76,13 @@ int main() {
 	}
 	else {
 		STARTUPINFO si;
-		ZeroMemory(&si, sizeof(si));
+		//ZeroMemory(&si, sizeof(si));
+		memset(&si, 0, sizeof(si));
 		si.cb = sizeof(si);
 
 		PROCESS_INFORMATION pi;
-		ZeroMemory(&pi, sizeof(pi));
+		//ZeroMemory(&pi, sizeof(pi));
+		memset(&pi, 0, sizeof(pi));
 
 		string szAbsolutePath = string(szProcPath + string("\\") + szProcName);
 		BOOL bProcessCreated = CreateProcessA(szAbsolutePath.c_str(), NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi);
