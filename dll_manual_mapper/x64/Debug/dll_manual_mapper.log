@@ -1,2 +1,16 @@
-﻿  injection.cpp
-  dll_manual_mapper.vcxproj -> C:\Users\melti\Documents\Programming\Cheats\dll_manual_mapper\x64\Debug\dll_manual_mapper.exe
+﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
+  injection.cpp
+C:\Users\me\Documents\Programming\C++\custom_include\debug.hpp(101,38): warning C4244: 'argument': conversion from '_Rep' to 'DWORD', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  main.cpp
+C:\Users\me\Documents\Programming\C++\custom_include\debug.hpp(101,38): warning C4244: 'argument': conversion from '_Rep' to 'DWORD', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  Generating Code...
+injection.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  dll_manual_mapper.vcxproj -> C:\Users\me\Documents\Programming\Cheats\DLLMapper64\x64\Debug\dll_manual_mapper.exe
